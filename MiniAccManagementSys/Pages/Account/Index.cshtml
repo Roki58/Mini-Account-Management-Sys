@@ -1,4 +1,33 @@
 ﻿@page
 @model MiniAccManagementSys.Pages.Account.IndexModel
 @{
+    ViewData["Title"] = "Chart of Accounts";
 }
+
+<h2>@ViewData["Title"]</h2>
+<a class="btn btn-primary mb-3" asp-page="Create">+ New Account</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Parent</th>
+            <th>Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var acc in Model.Accounts)
+        {
+            <tr>
+                <td>@acc.Name</td>
+                <td>@acc.ParentId</td>
+                <td>@acc.AccountType</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@acc.Id">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@acc.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
