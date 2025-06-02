@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\models\\voucherentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\models\\voucherentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\models\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\models\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\pages\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\pages\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\pages\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\pages\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|c:\\users\\shihab\\source\\repos\\miniaccmanagementsys\\mini-account-management-sys\\miniaccmanagementsys\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3CF7BA3D-7B84-4C25-AB93-1678D9C41DCC}|MiniAccManagementSys\\MiniAccManagementSys.csproj|solutionrelative:miniaccmanagementsys\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,6 +79,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "MiniAccManagementSys\\Models\\Permission.cs",
+              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\Permission.cs",
+              "RelativeToolTip": "MiniAccManagementSys\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:15:11.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoucherEntry.cs",
+              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\VoucherEntry.cs",
+              "RelativeDocumentMoniker": "MiniAccManagementSys\\Models\\VoucherEntry.cs",
+              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\VoucherEntry.cs",
+              "RelativeToolTip": "MiniAccManagementSys\\Models\\VoucherEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:14:51.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\Voucher.cs",
+              "RelativeDocumentMoniker": "MiniAccManagementSys\\Models\\Voucher.cs",
+              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\Voucher.cs",
+              "RelativeToolTip": "MiniAccManagementSys\\Models\\Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:14:37.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChartOfAccount.cs",
+              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\ChartOfAccount.cs",
+              "RelativeDocumentMoniker": "MiniAccManagementSys\\Models\\ChartOfAccount.cs",
+              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Models\\ChartOfAccount.cs",
+              "RelativeToolTip": "MiniAccManagementSys\\Models\\ChartOfAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:14:22.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\AccessDenied.cshtml",
@@ -75,19 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditRoles.cshtml",
-              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
-              "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
-              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
-              "RelativeToolTip": "MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T19:00:10.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Users\\Index.cshtml",
@@ -99,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Assign.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Roles\\Assign.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Roles\\Assign.cshtml",
@@ -111,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Roles\\Index.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Roles\\Index.cshtml",
@@ -123,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Vouchers\\Create.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Vouchers\\Create.cshtml",
@@ -135,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Vouchers\\Index.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Vouchers\\Index.cshtml",
@@ -147,7 +203,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Index.cshtml",
+              "RelativeToolTip": "MiniAccManagementSys\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T18:08:29.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
+              "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
+              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
+              "RelativeToolTip": "MiniAccManagementSys\\Pages\\Users\\EditRoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T19:00:10.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Account\\Delete.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Account\\Delete.cshtml",
@@ -159,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Account\\Edit.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Account\\Edit.cshtml",
@@ -171,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Account\\Create.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Account\\Create.cshtml",
@@ -183,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Account\\Index.cshtml",
@@ -192,18 +273,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-02T18:54:27.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniAccManagementSys\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\shihab\\source\\repos\\MiniAccManagementSys\\Mini-Account-Management-Sys\\MiniAccManagementSys\\Pages\\Index.cshtml",
-              "RelativeToolTip": "MiniAccManagementSys\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T18:08:29.381Z"
             }
           ]
         }
