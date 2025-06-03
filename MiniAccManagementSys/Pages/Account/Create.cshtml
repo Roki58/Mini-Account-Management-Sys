@@ -4,21 +4,37 @@
     ViewData["Title"] = "Create Account";
 }
 
-<h2>Create New Account</h2>
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-primary text-white rounded-top-4">
+            <h4 class="mb-0">Create New Account</h4>
+        </div>
+        <div class="card-body">
+            <form method="post" class="row g-3">
+                <div class="col-md-6">
+                    <label asp-for="Account.Name" class="form-label fw-semibold"></label>
+                    <input asp-for="Account.Name" class="form-control" placeholder="e.g., Cash, Bank" />
+                    <span asp-validation-for="Account.Name" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Account.AccountType" class="form-label fw-semibold"></label>
+                    <input asp-for="Account.AccountType" class="form-control" placeholder="e.g., Asset, Expense" />
+                    <span asp-validation-for="Account.AccountType" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Account.ParentId" class="form-label fw-semibold">Parent Account ID (optional)</label>
+                    <input asp-for="Account.ParentId" class="form-control" />
+                    <span asp-validation-for="Account.ParentId" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success px-4">💾 Save Account</button>
+                    <a asp-page="/Index" class="btn btn-outline-secondary ms-2">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
-<form method="post">
-    <div class="form-group">
-        <label asp-for="Account.Name"></label>
-        <input asp-for="Account.Name" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="Account.AccountType"></label>
-        <input asp-for="Account.AccountType" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label asp-for="Account.ParentId">Parent Account ID (optional)</label>
-        <input asp-for="Account.ParentId" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-success">Save</button>
-    <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
-</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
