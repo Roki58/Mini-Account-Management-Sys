@@ -35,7 +35,7 @@ namespace MiniAccManagementSys.Services
 
         public async Task<ChartOfAccount> GetAccountByIdAsync(int id)
         {
-            using var con = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            using var con = new SqlConnection(_config.GetConnectionString("DbConnection"));
             using var cmd = new SqlCommand("SELECT * FROM ChartOfAccounts WHERE Id = @Id", con);
             cmd.Parameters.AddWithValue("@Id", id);
             await con.OpenAsync();
@@ -57,7 +57,7 @@ namespace MiniAccManagementSys.Services
 
         public async Task SaveAccountAsync(ChartOfAccount account, string action)
         {
-            using var con = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            using var con = new SqlConnection(_config.GetConnectionString("DbConnection"));
             using var cmd = new SqlCommand("sp_ManageChartOfAccounts", con);
             cmd.CommandType = CommandType.StoredProcedure;
 
@@ -73,7 +73,7 @@ namespace MiniAccManagementSys.Services
 
         public async Task DeleteAccountAsync(int id)
         {
-            using var con = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            using var con = new SqlConnection(_config.GetConnectionString("DbConnection"));
             using var cmd = new SqlCommand("sp_ManageChartOfAccounts", con);
             cmd.CommandType = CommandType.StoredProcedure;
 
