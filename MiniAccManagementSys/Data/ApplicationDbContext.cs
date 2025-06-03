@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MiniAccManagementSys.Models;
 
 namespace MiniAccManagementSys.Data
 {
@@ -7,9 +8,9 @@ namespace MiniAccManagementSys.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
-        // Define DbSets for your entities here, e.g.:
-        // public DbSet<YourEntity> YourEntities { get; set; }
+        public DbSet<ChartOfAccount> ChartOfAccounts { get; set; }
+
     }
-  
 }

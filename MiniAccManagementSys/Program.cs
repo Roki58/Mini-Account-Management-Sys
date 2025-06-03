@@ -9,6 +9,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+
+// Register your AccountService for DI here
+builder.Services.AddScoped<MiniAccManagementSys.Services.AccountService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

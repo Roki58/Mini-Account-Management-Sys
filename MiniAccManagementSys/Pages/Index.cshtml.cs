@@ -1,19 +1,21 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace MiniAccManagementSys.Pages;
+using MiniAccManagementSys.Models;
+using MiniAccManagementSys.Services;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    private readonly AccountService _accountService;
+    public List<ChartOfAccount> Accounts { get; set; } = new();
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public IndexModel(AccountService accountService)
     {
-        _logger = logger;
+        _accountService = accountService;
     }
 
-    public void OnGet()
+    public async Task OnGetAsync()
     {
-
+        Accounts = await _accountService.GetAllAccountsAsync();
     }
 }
