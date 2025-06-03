@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MiniAccManagementSys.Pages.Account
 {
-    [Authorize(Roles = "Admin,Accountant")]  // Apply authorization here
+    [Authorize(Roles = "Admin,Accountant")]
     public class IndexModel : PageModel
     {
         private readonly AccountService _accountService;

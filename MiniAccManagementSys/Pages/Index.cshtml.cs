@@ -4,18 +4,21 @@ using MiniAccManagementSys.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-public class IndexModel : PageModel
+namespace MiniAccManagementSys.Pages
 {
-    private readonly AccountService _accountService;
-    public List<ChartOfAccount> Accounts { get; set; } = new();
-
-    public IndexModel(AccountService accountService)
+    public class IndexModel : PageModel
     {
-        _accountService = accountService;
-    }
+        private readonly AccountService _accountService;
+        public List<ChartOfAccount> Accounts { get; set; } = new();
 
-    public async Task OnGetAsync()
-    {
-        Accounts = await _accountService.GetAllAccountsAsync();
+        public IndexModel(AccountService accountService)
+        {
+            _accountService = accountService;
+        }
+
+        public async Task OnGetAsync()
+        {
+            Accounts = await _accountService.GetAllAccountsAsync();
+        }
     }
 }

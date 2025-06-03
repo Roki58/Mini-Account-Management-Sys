@@ -13,7 +13,7 @@ namespace MiniAccManagementSys.Services
         public async Task<List<ChartOfAccount>> GetAllAccountsAsync()
         {
             var list = new List<ChartOfAccount>();
-            using var con = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            using var con = new SqlConnection(_config.GetConnectionString("DbConnection"));
             using var cmd = new SqlCommand("sp_ManageChartOfAccounts", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@Action", "GetAll");
