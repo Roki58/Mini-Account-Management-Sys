@@ -1,4 +1,45 @@
-﻿@page
+﻿@page "{id:int}"
 @model MiniAccManagementSys.Pages.Account.EditModel
 @{
+    ViewData["Title"] = "Edit Account";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0 rounded-4">
+        <div class="card-header bg-primary text-white rounded-top-4">
+            <h4>Edit Account</h4>
+        </div>
+        <div class="card-body">
+            <form method="post" class="row g-3">
+                <input type="hidden" asp-for="Account.Id" />
+
+                <div class="col-md-6">
+                    <label asp-for="Account.Name" class="form-label fw-semibold"></label>
+                    <input asp-for="Account.Name" class="form-control" placeholder="Account Name" />
+                    <span asp-validation-for="Account.Name" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Account.AccountType" class="form-label fw-semibold"></label>
+                    <input asp-for="Account.AccountType" class="form-control" placeholder="Account Type" />
+                    <span asp-validation-for="Account.AccountType" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Account.ParentId" class="form-label fw-semibold"></label>
+                    <input asp-for="Account.ParentId" class="form-control" placeholder="Parent Account ID (optional)" />
+                    <span asp-validation-for="Account.ParentId" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                    <a asp-page="/Index" class="btn btn-secondary ms-2">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
 }

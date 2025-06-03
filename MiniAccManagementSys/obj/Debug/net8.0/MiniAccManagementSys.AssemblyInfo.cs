@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniAccManagementSys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd76d70f87aed57a307982719ce9c41fa9df0c5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f26201ebb50023bbfc3900b63ea127daea53803")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniAccManagementSys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniAccManagementSys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
