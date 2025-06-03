@@ -17,8 +17,12 @@
                 <td>@(acc.ParentId.HasValue ? acc.ParentId.ToString() : "None")</td>
                 <td>@acc.AccountType</td>
                 <td>
-                    <a asp-page="/Account/Edit" asp-route-id="@acc.Id">Edit</a> |
-                    <a asp-page="/Account/Delete" asp-route-id="@acc.Id">Delete</a>
+                    <a asp-page="/Account/Edit" asp-route-id="@acc.Id" class="btn btn-sm btn-primary me-1">
+                        <i class="bi bi-pencil-square"></i> Edit
+                    </a>
+                    <a asp-page="/Account/Delete" asp-route-id="@acc.Id" class="btn btn-sm btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </a>
                 </td>
             </tr>
         }

@@ -1,4 +1,24 @@
-﻿@page
+﻿@page "{id:int}"
 @model MiniAccManagementSys.Pages.Account.DeleteModel
 @{
+    ViewData["Title"] = "Delete Account";
 }
+
+<div class="container mt-5">
+    <div class="card border-danger shadow-sm rounded-4">
+        <div class="card-header bg-danger text-white rounded-top-4">
+            <h4 class="mb-0">Confirm Account Deletion</h4>
+        </div>
+        <div class="card-body">
+            <p class="lead">Are you sure you want to delete the account:</p>
+            <h5 class="text-danger">@Model.Account.Name</h5>
+            <p class="mb-4 text-muted"><strong>Type:</strong> @Model.Account.AccountType</p>
+
+            <form method="post">
+                <input type="hidden" asp-for="Account.Id" />
+                <button type="submit" class="btn btn-danger me-2">Yes, Delete</button>
+                <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
