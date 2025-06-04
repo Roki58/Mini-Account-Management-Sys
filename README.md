@@ -49,16 +49,26 @@ Stored Procedure: `sp_SaveVoucher`
 .png)
 
 📋 Dashboard  
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dash![add](https://github.com/user-attachments/assets/4fd71fd3-a67d-4f89-b4fe-dbef2a69f1a7)
+board.png)
 
-👥 User Role Management  
-![Role Management](screenshots/roles.png)
+👥 User Create  
+![Create Account](screenshots/ro![create](https://github.com/user-attachments/assets/b1232dea-8aac-475d-9e11-f12f50405ab6)
+les.png)
 
- 📘 Chart of Accounts  
-![Chart of Accounts](screenshots/chart_of_accounts.png)
+ 📘 Edit Accounts  
+![Edit Account](screenshots/c![edit](https://github.com/user-attachments/assets/5ba0aa64-6061-4147-8dc9-c21a8807f86c)
+hart_of_accounts.png)
 
- 🧾 Voucher Entry  
-![Voucher Entry](screenshots/voucher_entry.png)
+ 🧾 Delete Accounts  
+![Delete Account](screen![delete](https://github.com/user-attachments/assets/d4ceea6f-d371-4b31-84af-3cf4ef8b9ddd)
+shots/voucher_entry.png)
+
+⚙️ Getting Started
+
+Run the App
+
+dotnet run
 
 ---
 📂 Folder Structure
