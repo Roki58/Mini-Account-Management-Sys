@@ -87,51 +87,42 @@ A simple and functional accounting system built using ASP.NET Core (Razor Pages)
 
 ---
 
-## ▶️ Steps to Run
+ ▶️ Steps to Run
 
-### 1. Clone or Extract the Project
+ 1. Clone or Extract the Project
 ```bash
 git clone https://github.com/Roki58/Mini-Account-Management-Sys.git
 cd Mini-Account-Management-Sys
 ```
 Or unzip the downloaded folder.
 
-### 2. Set Up the Database
+ 2. Set Up the Database
 
-- Create a database in SQL Server (e.g., `MiniAccountDBO`).
+- Create a database in SQL Server (e.g., `MiniAccountDb`).
 - Run the stored procedure and table creation scripts (if provided).
 
-### 3. Update `appsettings.json`
+ 3. Update `appsettings.json`
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=MiniAccountDBO;Trusted_Connection=True;"
+  "DbConnection": "Server=localhost;Database=MiniAccountDb;Trusted_Connection=True;"
 }
 ```
 
-### 4. Restore & Build
-```bash
+ 4. Restore & Build
+
 dotnet restore
 dotnet build
-```
 
-### 5. Apply Migrations (if needed)
-```bash
+
+ 5. Apply Migrations (if needed)
 dotnet ef database update
-```
 
-### 6. Run the App
-```bash
+
+ 6. Run the App
+
 dotnet run
-```
-
-Visit: [http://localhost:5000](http://localhost:5000) or the URL in your terminal.
-
----
 
 
-Check the database or seed logic for real credentials.
-
----
 
 
 
