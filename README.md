@@ -72,6 +72,68 @@ dotnet run
 ![folder1](https://github.com/user-attachments/assets/9cee4d50-1eb8-4871-83b2-d82a109bb1bd)
 ![folder2](https://github.com/user-attachments/assets/3bf81322-7448-4e94-b761-28cac8acf103)
 
+# 🏃‍♂️ How to Run the Mini Account Management System
+
+A simple and functional accounting system built using ASP.NET Core (Razor Pages) and MS SQL Server using stored procedures only — developed as part of a technical assessment to demonstrate core features like user role management, chart of accounts, and voucher entry.
+
+---
+
+## ✅ Prerequisites
+
+- [.NET SDK 6.0 or later](https://dotnet.microsoft.com/en-us/download)
+- SQL Server (LocalDB, Express, or full version)
+- SQL Server Management Studio (optional)
+- Visual Studio 2022+ / VS Code / JetBrains Rider
+
+---
+
+## ▶️ Steps to Run
+
+### 1. Clone or Extract the Project
+```bash
+git clone https://github.com/Roki58/Mini-Account-Management-Sys.git
+cd Mini-Account-Management-Sys
+```
+Or unzip the downloaded folder.
+
+### 2. Set Up the Database
+
+- Create a database in SQL Server (e.g., `MiniAccountDBO`).
+- Run the stored procedure and table creation scripts (if provided).
+
+### 3. Update `appsettings.json`
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=localhost;Database=MiniAccountDBO;Trusted_Connection=True;"
+}
+```
+
+### 4. Restore & Build
+```bash
+dotnet restore
+dotnet build
+```
+
+### 5. Apply Migrations (if needed)
+```bash
+dotnet ef database update
+```
+
+### 6. Run the App
+```bash
+dotnet run
+```
+
+Visit: [http://localhost:5000](http://localhost:5000) or the URL in your terminal.
+
+---
+
+
+Check the database or seed logic for real credentials.
+
+---
+
+
 
 
 
