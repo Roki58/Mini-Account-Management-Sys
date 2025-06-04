@@ -68,43 +68,43 @@ dotnet run
 
 ---
 📂 Folder Structure
-MiniAccountSystem/
-│
-├── wwwroot/                    # Static files (css, js, images)
-│   ├── css/
-│   └── js/
-│
-├── Pages/                      # Razor Pages
-│   ├── Shared/                # _Layout, partials
-│   ├── Auth/                  # Login, Register, Roles
-│   ├── Accounts/              # Chart of Accounts
-│   ├── Vouchers/              # Voucher entry
-│   ├── Index.cshtml
-│   └── _ViewStart.cshtml
-│
-├── Models/                    # Plain C# Models
-│   ├── AccountModel.cs
-│   ├── VoucherModel.cs
-│   └── ViewModels/
-│       └── VoucherEntryVM.cs
-│
-├── Services/                  # SQL Stored Procedure Call Wrappers
-│   ├── AccountService.cs
-│   ├── VoucherService.cs
-│   └── UserService.cs
-│
-├── Data/                      # Identity & DB Context (if needed for Identity)
-│   └── ApplicationDbContext.cs
-│
-├── Scripts/                   # SQL Scripts (schema + SPs)
-│   ├── Tables.sql
-│   └── StoredProcedures.sql
-│
-├── appsettings.json
-├── Program.cs
-├── Startup.cs (if .NET 5 or earlier)
-├── README.md
-└── MiniAccountSystem.csproj
+MiniAccountSystem
+
+ wwwroot                    # Static files (css, js, images)
+ css
+ js
+
+Pages                     # Razor Pages
+ Shared                # _Layout, partials
+Auth               # Login, Register, Roles
+Accounts              # Chart of Accounts
+Vouchers              # Voucher entry
+Index.cshtml
+ViewStart.cshtml
+
+Models                   # Plain C# Models
+AccountModel.cs
+VoucherModel.cs
+ViewModels
+VoucherEntryVM.cs
+
+Services                 # SQL Stored Procedure Call Wrappers
+AccountService.cs
+ VoucherService.cs
+UserService.cs
+
+Data                      # Identity & DB Context (if needed for Identity)
+ApplicationDbContext.cs
+
+Scripts                  # SQL Scripts (schema + SPs)
+ Tables.sql
+StoredProcedures.sql
+
+appsettings.json
+Program.cs
+Startup.cs (if .NET 5 or earlier)
+README.md
+MiniAccountSystem.csproj
 
 
 
