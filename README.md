@@ -33,10 +33,6 @@ Fields:
 - Dropdown-based account selection  
 Stored Procedure: `sp_SaveVoucher`
 
----
-
- 🎁 Bonus Features
-- Report export to Excel (if implemented)
 
 ---
 
