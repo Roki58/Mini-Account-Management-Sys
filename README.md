@@ -45,7 +45,6 @@ Stored Procedure: `sp_SaveVoucher`
 > *(Replace image paths with your own screenshots)*
 
  🔐 Home Page  
-![Home Page](screenshots/login![delete](https://github.com/user-attachments/assets/9c137148-ab56-4aca-b915-d517d278bb76)
 ![home](https://github.com/user-attachments/assets/98c92dad-264e-4a4d-b9c7-78f5cf8dcee9)
 .png)
 
