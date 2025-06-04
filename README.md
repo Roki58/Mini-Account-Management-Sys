@@ -46,9 +46,6 @@ Stored Procedure: `sp_SaveVoucher`
 
  🔐 Home Page  
 ![Home Page](screenshots/login![delete](https://github.com/user-attachments/assets/9c137148-ab56-4aca-b915-d517d278bb76)
-![edit](https://github.com/user-attachments/assets/3292dd1a-d9b8-4654-9b1f-b88562be6ccc)
-![add](https://github.com/user-attachments/assets/1a609328-95d9-424a-869e-289db330d908)
-![create](https://github.com/user-attachments/assets/9c72e5a9-de2a-4c83-baea-0a0eb1bd907b)
 ![home](https://github.com/user-attachments/assets/98c92dad-264e-4a4d-b9c7-78f5cf8dcee9)
 .png)
 
