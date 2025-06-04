@@ -68,43 +68,8 @@ dotnet run
 
 ---
 📂 Folder Structure
-MiniAccountSystem
-
- wwwroot                    # Static files (css, js, images)
- css
- js
-
-Pages                     # Razor Pages
- Shared                # _Layout, partials
-Auth               # Login, Register, Roles
-Accounts              # Chart of Accounts
-Vouchers              # Voucher entry
-Index.cshtml
-ViewStart.cshtml
-
-Models                   # Plain C# Models
-AccountModel.cs
-VoucherModel.cs
-ViewModels
-VoucherEntryVM.cs
-
-Services                 # SQL Stored Procedure Call Wrappers
-AccountService.cs
- VoucherService.cs
-UserService.cs
-
-Data                      # Identity & DB Context (if needed for Identity)
-ApplicationDbContext.cs
-
-Scripts                  # SQL Scripts (schema + SPs)
- Tables.sql
-StoredProcedures.sql
-
-appsettings.json
-Program.cs
-Startup.cs (if .NET 5 or earlier)
-README.md
-MiniAccountSystem.csproj
+![folder2](https://github.com/user-attachments/assets/3bf81322-7448-4e94-b761-28cac8acf103)
+![folder1](https://github.com/user-attachments/assets/9cee4d50-1eb8-4871-83b2-d82a109bb1bd)
 
 
 
